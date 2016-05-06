@@ -35,7 +35,7 @@ $('#fade').click(function() {
 /* Create a new grid after button click function */
 function newGrid () {
   $('.divGrid').remove();
-  $('#container').css('background-image','url(doge.jpg)');
+  $('#container').css('background-image','none');
   x = parseInt(prompt("How many squares per row?"));
   z = x*x+x-1;
   $divSize = 100/x;
